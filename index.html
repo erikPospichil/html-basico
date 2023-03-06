@@ -19,7 +19,7 @@
                 alt="Um gato laranja muito fofo deitado e virando para tŕas"></a>
     </section>
     <section>
-        <h2>Lista dos gatos</h2>
+        <h2>Listas dos gatos</h2>
         <h3>Coisas que os gatos amam:</h3>
         <ul>
             <li>Catnip</li>
@@ -42,6 +42,27 @@
                 alt="Cinco gatinhos em um campo verde">
             <figcaption>Gatos <strong>odeiam</strong> outros gatos.</figcaption>
         </figure>
+    </section>
+    <section>
+        <h2>Formulário felino</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+            <fieldset>
+                <legend>Você cria seu gato dentro ou fora de casa?</legend>
+                <label><input id="dentro" type="radio" name="dentro-fora" value="dentro" checked>Dentro</label>
+                <label><input id="fora" type="radio" name="dentro-fora" value="fora">Fora</label>
+            </fieldset>
+            <fieldset>
+                <legend>Qual é a personalidade do seu gato?</legend>
+                <input id="amoroso" type="checkbox" name="personalidade" value="amoroso" checked><label
+                    for="amoroso">Amoroso</label>
+                <input id="preguicoso" type="checkbox" name="personalidade" value="preguicoso"><label
+                    for="preguicoso">Preguiçoso</label>
+                <input id="energico" type="checkbox" name="personalidade" value="energico"><label
+                    for="energico">Enérgico</label>
+            </fieldset>
+            <input type="text" name="fotogatourl" placeholder="foto gato URL" required>
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 </main>
 
